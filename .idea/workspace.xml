@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a12635-80c7-4cca-810d-8d8c68259236" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/criacional/prototype/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/criacional/prototype/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/criacional/prototype/PrototypeConcreto1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/criacional/prototype/PrototypeConcreto2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/criacional/factory/PizzaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/criacional/factory/PizzaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/criacional/singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/criacional/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,8 @@
     "Application.Main.executor": "Debug",
     "Application.com.design.patterns.criacional.Main.executor": "Run",
     "Application.com.design.patterns.criacional.factory.Main.executor": "Run",
-    "Application.com.design.patterns.criacional.prototype.Main.executor": "Debug",
+    "Application.com.design.patterns.criacional.prototype.Main.executor": "Run",
+    "Application.com.design.patterns.criacional.singleton.Main.executor": "Run",
     "Application.com.design.patterns.estrutural.bridge.Main.executor": "Run",
     "Application.com.design.patterns.estrutural.composite.Main.executor": "Run",
     "Application.com.design.patterns.estrutural.decorator.Main.executor": "Run",
@@ -100,7 +101,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.design.patterns.criacional.prototype.Main">
+  <component name="RunManager" selected="Application.com.design.patterns.criacional.singleton.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.design.patterns.estrutural.proxy.Main" />
       <module name="patterns" />
@@ -140,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.design.patterns.estrutural.facade.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.design.patterns.estrutural.facade.Main" />
+    <configuration name="com.design.patterns.criacional.singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.design.patterns.criacional.singleton.Main" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.design.patterns.estrutural.facade.*" />
+          <option name="PATTERN" value="com.design.patterns.criacional.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.design.patterns.criacional.singleton.Main" />
         <item itemvalue="Application.com.design.patterns.criacional.prototype.Main" />
         <item itemvalue="Application.com.design.patterns.criacional.factory.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.design.patterns.estrutural.flyweight.Main" />
-        <item itemvalue="Application.com.design.patterns.estrutural.facade.Main" />
       </list>
     </recent_temporary>
   </component>

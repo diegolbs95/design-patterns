@@ -11,3 +11,11 @@ y
 Ipatterns/src/main/java/com/design/patterns/criacional/prototype/Main.java,b\b\bbaae54ef1b38354f2d0681b1a6b608668c0ca07
 w
 Gpatterns/src/main/java/com/design/patterns/criacional/factory/Main.java,b\9\b9c872ced9d9060bf158dbca838ddb3971298f11
+~
+Npatterns/src/main/java/com/design/patterns/criacional/singleton/Singleton.java,e\f\ef91fc99b585d05e3c5a077ec68de840836f93c1
+y
+Ipatterns/src/main/java/com/design/patterns/criacional/singleton/Main.java,2\e\2e5149c7a1cd4b4d00ae87ab273d0cb08938551b
+u
+Esrc/main/java/com/design/patterns/criacional/singleton/Singleton.java,4\9\49fbef866a027e70dcd3ad12c21c9b8f0df2dd24
+p
+@src/main/java/com/design/patterns/criacional/singleton/Main.java,7\d\7dacb177b12b633a65a1556cddd4d353478d01ee
