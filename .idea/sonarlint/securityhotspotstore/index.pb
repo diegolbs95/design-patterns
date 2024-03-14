@@ -19,3 +19,15 @@ u
 Esrc/main/java/com/design/patterns/criacional/singleton/Singleton.java,4\9\49fbef866a027e70dcd3ad12c21c9b8f0df2dd24
 p
 @src/main/java/com/design/patterns/criacional/singleton/Main.java,7\d\7dacb177b12b633a65a1556cddd4d353478d01ee
+u
+Esrc/main/java/com/design/patterns/comportamental/command/Comando.java,a\5\a5b30432f88f1674ab353cb55e74d32a8e00d908
+q
+Asrc/main/java/com/design/patterns/comportamental/command/Luz.java,4\0\408d1ee7a74b0624ec7e55c59e68dc91a711a59d
+{
+Ksrc/main/java/com/design/patterns/comportamental/command/AtivarComando.java,4\e\4e8dfb7ee2f72de3bb3989e6f16d366c72d56382
+~
+Nsrc/main/java/com/design/patterns/comportamental/command/DesativarComando.java,5\7\57e312907fb6a0a50a890a4a6974bfc61e4de02b
+|
+Lsrc/main/java/com/design/patterns/comportamental/command/ControleRemoto.java,4\e\4e34ef6c053960d510aebc5e2dfb066f53d5f1f6
+r
+Bsrc/main/java/com/design/patterns/comportamental/command/Main.java,0\6\065db1f7e867ba955eb581cb43c259b1c6af4118

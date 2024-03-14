@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a12635-80c7-4cca-810d-8d8c68259236" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/criacional/singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/criacional/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/comportamental/command/AtivarComando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/comportamental/command/Comando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/comportamental/command/ControleRemoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/comportamental/command/DesativarComando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/comportamental/command/Luz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/src/main/java/com/design/patterns/comportamental/command/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -67,6 +75,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Debug",
+    "Application.com.design.patterns.comportamental.command.Main.executor": "Run",
     "Application.com.design.patterns.criacional.Main.executor": "Run",
     "Application.com.design.patterns.criacional.factory.Main.executor": "Run",
     "Application.com.design.patterns.criacional.prototype.Main.executor": "Run",
@@ -79,6 +88,7 @@
     "Maven.patterns [clean,install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/projetos/ProjectInovador/Update Project/patterns",
     "project.structure.last.edited": "Project",
@@ -89,11 +99,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.design.patterns.comportamental.command" />
       <recent name="com.design.patterns.criacional.prototype" />
       <recent name="com.design.patterns.criacional" />
       <recent name="com.design.patterns.estrutural.decorator" />
       <recent name="com.design.patterns.estrutural.composite" />
-      <recent name="com.design.patterns.estrutural.bridge" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -101,13 +111,26 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.design.patterns.criacional.singleton.Main">
+  <component name="RunManager" selected="Application.com.design.patterns.comportamental.command.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.design.patterns.estrutural.proxy.Main" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.design.patterns.estrutural.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.design.patterns.comportamental.command.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.design.patterns.comportamental.command.Main" />
+      <module name="patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.design.patterns.comportamental.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,26 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.design.patterns.estrutural.flyweight.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.design.patterns.estrutural.flyweight.Main" />
-      <module name="patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.design.patterns.estrutural.flyweight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.design.patterns.comportamental.command.Main" />
         <item itemvalue="Application.com.design.patterns.criacional.singleton.Main" />
         <item itemvalue="Application.com.design.patterns.criacional.prototype.Main" />
         <item itemvalue="Application.com.design.patterns.criacional.factory.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.design.patterns.estrutural.flyweight.Main" />
       </list>
     </recent_temporary>
   </component>
